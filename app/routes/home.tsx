@@ -36,7 +36,7 @@ export default function Home() {
       const saved = await createProject({ item: newItem, visibility: 'private' });
 
       if (!saved) {
-        console.error("Failed to create project", Error);
+        console.error("Failed to create project");
         return false;
       }
 
