@@ -141,7 +141,7 @@ export default function Home() {
                     <div className="meta">
                       <Clock size={12} />
                       <span>{new Date(timestamp).toLocaleDateString()}</span>
-                      <span>By JS Mastery</span>
+                      <span>By YOU</span>
                     </div>
                   </div>
                   <div className="arrow">
